@@ -1,8 +1,7 @@
 var secretNumber = 4;
 
-var guess = Number(prompt("Guess a number"));
-
-alert(guess);
+var stringGuess = prompt("Guess a number");
+var guess = Number(stringGuess);
 
 if(guess === secretNumber) {
   alert("YOU GOT IT RIGHT!!")
