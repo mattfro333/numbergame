@@ -23,4 +23,6 @@ if(name != null){
 
 if(quest === "I seek the grail"){
   alert("You may pass.")
+} else if(quest !== "I seek the grail"){
+  alert("AAAAAaaaaaaa")
 }
