@@ -1,15 +1,17 @@
 
-const colors = ['blue','green','black','purple','orange','red','brown','violet','yellow','indigo'];
+const colors = ['Blue','Green','Black','Purple','Orange','Red','Brown','Violet','Yellow','Indigo','Teal','Tan','Gray','Grey'];
 
 let name = prompt("What is your name?")
 
-let colorGuess = prompt("What is your favorite color?")
+let colorGuess = prompt("What is your favorite color?").charAt(0).toUpperCase()
 let guess = colorGuess
 let questGuess = prompt("What is your quest?")
 let quest = questGuess
 
 if(name != null){
   colorGuess
+} else if (name = null){
+  alert("AAAaaaaaaa")
 }
 
   for(var i = 0; i <= colors.length; i++){
@@ -17,7 +19,8 @@ if(name != null){
       console.log(colors[i])
      questGuess
    }
-  }
+ }
+
 
 
 
